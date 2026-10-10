@@ -1,29 +1,81 @@
-
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07111f">
+<meta name="description" content="Direktori tautan CCTV publik wilayah Sukabumi.">
+<title>CCTV Sukabumi — Direktori CCTV Publik</title>
+<style>
+:root{color-scheme:dark;--bg:#07111f;--panel:#0d1b2e;--panel2:#10233b;--line:#203957;--text:#eaf4ff;--muted:#9eb3ca;--cyan:#39d5ff;--blue:#4d7cff;--green:#57e3b0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top right,#12345a 0,transparent 42%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}.top{padding:22px 0;border-bottom:1px solid #1a2c42;background:#07111fbb;backdrop-filter:blur(12px)}.nav{display:flex;justify-content:space-between;align-items:center;gap:16px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.2px}.logo{width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,var(--cyan),var(--blue));display:grid;place-items:center;color:#06111e;box-shadow:0 0 24px #39d5ff35}.pill{border:1px solid #27506b;color:#9feaff;padding:7px 11px;border-radius:99px;font-size:12px}
+.hero{padding:54px 0 32px}.eyebrow{color:var(--cyan);font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase}.hero h1{font-size:clamp(34px,6vw,62px);line-height:1.02;margin:14px 0;letter-spacing:-2px}.hero h1 span{color:var(--cyan)}.hero p{max-width:650px;color:var(--muted);font-size:16px;line-height:1.7}.searchrow{display:flex;gap:10px;margin-top:24px;max-width:760px}.searchrow input{flex:1;min-width:0;background:#0a1829;border:1px solid var(--line);border-radius:13px;padding:15px;color:var(--text);font:inherit;outline:none}.searchrow input:focus{border-color:var(--cyan);box-shadow:0 0 0 3px #39d5ff18}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 10px}.filter{border:1px solid var(--line);background:#0b192a;color:var(--muted);padding:9px 13px;border-radius:99px;cursor:pointer;font:inherit;font-size:13px}.filter.active,.filter:hover{background:#11334a;border-color:#2c91b4;color:#dffaff}
+.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:26px 0 15px}.sectionhead h2{margin:0;font-size:21px}.sectionhead p{margin:5px 0 0;color:var(--muted);font-size:13px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.card{background:linear-gradient(155deg,#10223a,#0b1728);border:1px solid var(--line);border-radius:18px;padding:19px;display:flex;flex-direction:column;min-height:240px;transition:.2s}.card:hover{transform:translateY(-3px);border-color:#347c9e;box-shadow:0 14px 35px #0003}.cardtop{display:flex;align-items:center;justify-content:space-between;gap:10px}.camicon{width:43px;height:43px;border-radius:13px;background:#12314a;color:var(--cyan);display:grid;place-items:center;font-size:20px}.tag{font-size:11px;color:#a9e9ff;border:1px solid #28536b;padding:5px 8px;border-radius:99px}.card h3{margin:17px 0 7px;font-size:17px}.card p{color:var(--muted);font-size:13px;line-height:1.6;margin:0 0 18px}.actions{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap}.btn{display:inline-flex;justify-content:center;align-items:center;gap:6px;padding:10px 12px;border-radius:10px;text-decoration:none;font-size:13px;font-weight:750;border:1px solid #2a4c67;background:#122942}.btn.primary{background:linear-gradient(135deg,#39d5ff,#4d7cff);color:#041321;border:0}.btn:hover{filter:brightness(1.12)}.notice{margin:24px 0;padding:17px 19px;border:1px solid #6b5427;background:#251f13;border-radius:14px;color:#f6dfab;font-size:13px;line-height:1.65}.empty{display:none;color:var(--muted);padding:30px;text-align:center;border:1px dashed var(--line);border-radius:14px}.footer{border-top:1px solid #1a2c42;margin-top:48px;padding:24px 0 34px;color:var(--muted);font-size:12px;line-height:1.7}.footer strong{color:var(--text)}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.grid{grid-template-columns:1fr}.hero{padding-top:38px}.searchrow{flex-direction:column}.searchrow .btn{padding:13px}.nav .pill{display:none}.sectionhead{align-items:start;flex-direction:column}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap nav"><div class="brand"><div class="logo" aria-hidden="true">◉</div><div>CCTV <span style="color:#39d5ff">SUKABUMI</span></div></div><div class="pill">DIREKTORI CCTV PUBLIK</div></div></header>
+<main class="wrap">
+<section class="hero">
+<div class="eyebrow">Pantau informasi lalu lintas</div>
+<h1>Sudut Sukabumi,<br><span>dalam satu halaman.</span></h1>
+<p>Tonton video CCTV yang tersedia langsung di halaman ini, atau gunakan tautan pencarian untuk menemukan siaran publik lain di wilayah Sukabumi.</p>
+<div class="searchrow"><input id="search" type="search" placeholder="Cari area atau sumber CCTV…" aria-label="Cari CCTV"><a class="btn primary" href="#daftar">Jelajahi CCTV ↓</a></div>
+<div class="filters" id="filters">
+<button class="filter active" data-filter="semua">Semua</button>
+<button class="filter" data-filter="kota">Kota Sukabumi</button>
+<button class="filter" data-filter="kabupaten">Kabupaten Sukabumi</button>
+<button class="filter" data-filter="resmi">Sumber resmi</button>
+</div>
+</section>
+<section id="daftar">
+<div class="sectionhead"><div><h2>Direktori tautan</h2><p>Video tertentu diputar di halaman ini. Kartu pencarian membuka hasil eksternal karena belum memiliki ID video khusus.</p></div><span class="pill" id="count">6 tautan</span></div>
+<div class="grid" id="grid">
 <article class="card" data-area="kabupaten resmi" data-search="polres sukabumi streaming cctv kabupaten resmi youtube">
-  <div class="cardtop">
-    <div class="camicon">▶</div>
-    <span class="tag">Sumber resmi</span>
-  </div>
-
-  <h3>Streaming CCTV Polres Sukabumi</h3>
-  <p>Tonton video langsung dari pemutar di bawah ini, jika siaran tersedia dan mengizinkan embed.</p>
-
-  <div style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:14px;margin:10px 0;background:#000;">
-    <iframe
-      src="https://www.youtube-nocookie.com/embed/WYDAicrE_yw"
-      title="CCTV Sukabumi"
-      style="position:absolute;inset:0;width:100%;height:100%;border:0;"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-      loading="lazy">
-    </iframe>
-  </div>
-
-  <div class="actions">
-    <a class="btn" href="https://www.youtube.com/@TIKPOLRESSUKABUMI"
-       target="_blank" rel="noopener noreferrer">
-      Lihat kanal sumber ↗
-    </a>
-  </div>
+<div class="cardtop"><div class="camicon">▶</div><span class="tag">Sumber resmi</span></div><h3>Streaming CCTV Polres Sukabumi</h3><p>Tautan video yang dipublikasikan oleh kanal TIK Polres Sukabumi. Periksa halaman sumber untuk status siaran terbaru.</p><div class="video-container" style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:14px;margin:14px 0 0;background:#000;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/WYDAicrE_yw"
+    title="CCTV Sukabumi - Streaming Polres"
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
+<div class="actions" style="margin-top:12px">
+  <a class="btn" href="https://www.youtube.com/@TIKPOLRESSUKABUMI" target="_blank" rel="noopener noreferrer">Lihat kanal sumber ↗</a>
+</div>
 </article>
+<article class="card" data-area="kota" data-search="cctv kota sukabumi youtube pencarian">
+<div class="cardtop"><div class="camicon">⌕</div><span class="tag">Pencarian</span></div><h3>CCTV Kota Sukabumi</h3><p>Pencarian siaran publik dengan kata kunci Kota Sukabumi. Pilih hasil dari instansi atau pengelola yang jelas.</p><div class="actions"><a class="btn primary" href="https://www.youtube.com/results?search_query=CCTV+Kota+Sukabumi+live" target="_blank" rel="noopener noreferrer">Cari siaran ↗</a></div>
+</article>
+<article class="card" data-area="kabupaten" data-search="cctv kabupaten sukabumi youtube pencarian">
+<div class="cardtop"><div class="camicon">⌕</div><span class="tag">Pencarian</span></div><h3>CCTV Kabupaten Sukabumi</h3><p>Cari siaran atau rekaman CCTV yang tersedia secara publik di wilayah Kabupaten Sukabumi.</p><div class="actions"><a class="btn primary" href="https://www.youtube.com/results?search_query=CCTV+Kabupaten+Sukabumi+live" target="_blank" rel="noopener noreferrer">Cari siaran ↗</a></div>
+</article>
+<article class="card" data-area="kota kabupaten" data-search="dishub sukabumi cctv lalu lintas youtube">
+<div class="cardtop"><div class="camicon">🚦</div><span class="tag">Lalu lintas</span></div><h3>CCTV Lalu Lintas Sukabumi</h3><p>Cari informasi kamera lalu lintas. Pastikan hasil berasal dari Dishub atau pengelola resmi terkait.</p><div class="actions"><a class="btn primary" href="https://www.youtube.com/results?search_query=CCTV+Lalu+Lintas+Sukabumi" target="_blank" rel="noopener noreferrer">Cari lalu lintas ↗</a></div>
+</article>
+<article class="card" data-area="kota kabupaten resmi" data-search="pemerintah kota sukabumi website resmi">
+<div class="cardtop"><div class="camicon">⌂</div><span class="tag">Portal pemerintah</span></div><h3>Portal Pemkot Sukabumi</h3><p>Mulai dari portal pemerintah kota untuk mencari informasi layanan publik dan tautan resmi terkait.</p><div class="actions"><a class="btn primary" href="https://sukabumikota.go.id/" target="_blank" rel="noopener noreferrer">Buka portal ↗</a></div>
+</article>
+<article class="card" data-area="kabupaten resmi" data-search="pemerintah kabupaten sukabumi website resmi">
+<div class="cardtop"><div class="camicon">⌂</div><span class="tag">Portal pemerintah</span></div><h3>Portal Pemkab Sukabumi</h3><p>Portal pemerintah kabupaten sebagai titik awal untuk menemukan informasi dan layanan resmi.</p><div class="actions"><a class="btn primary" href="https://sukabumikab.go.id/" target="_blank" rel="noopener noreferrer">Buka portal ↗</a></div>
+</article>
+</div>
+<div class="empty" id="empty">Tidak ada tautan yang cocok. Coba kata kunci atau filter lain.</div>
+<div class="notice"><strong>Catatan penting:</strong> Hanya video dengan ID YouTube tertentu yang dapat diputar langsung di sini. Kartu bertanda “Pencarian” dan “Portal pemerintah” tetap membuka situs sumber karena bukan tautan video langsung. Jika pemilik menonaktifkan embed atau video dihapus, pemutar mungkin tidak tersedia. Hormati privasi dan ketentuan pemilik kamera.</div>
+</section>
+</main>
+<footer class="footer"><div class="wrap"><strong>CCTV Sukabumi</strong> · Direktori tautan publik independen.<br>Website ini bukan situs resmi pemerintah, kepolisian, atau Dishub. Tautan eksternal dikelola oleh pemilik masing-masing.</div></footer>
+<script>
+const search=document.getElementById('search'), cards=[...document.querySelectorAll('.card')], filters=[...document.querySelectorAll('.filter')], empty=document.getElementById('empty'), count=document.getElementById('count');
+let active='semua';
+function render(){const q=search.value.trim().toLowerCase();let shown=0;cards.forEach(c=>{const area=c.dataset.area||'',txt=(c.dataset.search+' '+c.innerText).toLowerCase();const ok=(active==='semua'||area.split(' ').includes(active))&&txt.includes(q);c.style.display=ok?'flex':'none';if(ok)shown++});empty.style.display=shown?'none':'block';count.textContent=shown+' tautan';}
+search.addEventListener('input',render);filters.forEach(b=>b.addEventListener('click',()=>{active=b.dataset.filter;filters.forEach(x=>x.classList.toggle('active',x===b));render()}));
+</script>
+</body>
+</html>
